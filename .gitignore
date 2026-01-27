@@ -33,6 +33,8 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+05_Model_IO_06_TAKEAWAYS.md
+
 # IDEs
 .vscode/
 .idea/
