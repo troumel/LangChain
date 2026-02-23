@@ -15,9 +15,15 @@ def custom_summary(model, input_size=None, **kwargs):
     Returns:
         ModelStatistics object from torchinfo
     """
+    # Get device from model's first parameter
+    import torch
+
+    device = next(model.parameters()).device
+
     default_kwargs = {
         "col_names": ["input_size", "output_size", "num_params", "trainable"],
         "verbose": 1,
+        "device": device,  # Use same device as model
     }
     default_kwargs.update(kwargs)
 
