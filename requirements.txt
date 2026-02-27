@@ -91,6 +91,7 @@ orjson==3.11.5
 ormsgpack==1.12.1
 overrides==7.7.0
 packaging==26.0
+pandas==3.0.1
 parso==0.8.5
 pillow==12.0.0
 platformdirs==4.5.1
@@ -143,6 +144,7 @@ typer==0.21.1
 typing-inspect==0.9.0
 typing-inspection==0.4.2
 typing_extensions==4.15.0
+tzdata==2025.3
 urllib3==2.6.3
 uuid_utils==0.13.0
 uvicorn==0.40.0
