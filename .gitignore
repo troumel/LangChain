@@ -38,6 +38,9 @@ env/
 # Chroma vector store
 intro-to-ds-lectures/
 
+# Downloaded datasets
+data_dir/
+
 # IDEs
 .vscode/
 .idea/
