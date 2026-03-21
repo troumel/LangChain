@@ -38,7 +38,7 @@ env/
 # Chroma vector store
 intro-to-ds-lectures/
 
-# Dataset files
+# Downloaded datasets
 data_dir/
 
 # IDEs
